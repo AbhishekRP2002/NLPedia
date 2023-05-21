@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-server"
+version = "0.1.0"
+description = ""
+authors = ["Abhishek Ranjan <aviranjan444@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.95.2"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+diffusers = "^0.16.1"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
