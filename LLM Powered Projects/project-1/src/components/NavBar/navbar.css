@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-container{
+    background-color: #1a1a1a;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
