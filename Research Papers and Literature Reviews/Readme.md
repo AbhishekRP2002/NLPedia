@@ -32,7 +32,7 @@ This repository contains a collection of machine learning research papers from t
 - MLE leads to anisotropic distribution of model representations.
 - Evaluation Metrics: Language Modelling Quality [ Perplexity and Prediction accuracy (next word), Prediction Repetition] , Generation Quality (Generation Repetition, Diversity, MAUVE, Semantic Coherence, Perplexity of Gnerated Text)
 
-#### Paper 1: [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
+#### Paper 2: [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206)
 
 - **Authors**: Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, Lili Yu, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy
 - **Published**: Thu, 18 May 2023
