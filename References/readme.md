@@ -1,1 +1,14 @@
-
+## ```Generic NLP Resource Links```
+- [NLP course by Yandex School of Data Analytics](https://lnkd.in/fePhndv)
+- [State of the Art NLP Innovations](https://lnkd.in/fbGkS_a)
+- [Deep Learning for NLP](https://lnkd.in/fWkGCbR)
+- [Fast AI NLP Course](https://lnkd.in/fPCcJAZ)
+- [Awesome NLP Journey](https://lnkd.in/fk7edUt)
+- [Resources from Top NLP Conferences](https://lnkd.in/fiy-rhE)
+- [NLP with Deep Learning](https://lnkd.in/fCvRyCi)
+- [Curated Resources for NLP](https://lnkd.in/fkCcu_3)
+- [NLP Tutorial for Deeplearning Researchers](https://lnkd.in/fSJ34yR)
+- [All kinds of Text Classification Models](https://lnkd.in/fZ4_zq6)
+- [Open-source NLP research library, built on PyTorch](https://lnkd.in/ft9rxyE)
+- [State-of-the-art NLP for TensorFlow 2.0 and PyTorch](https://lnkd.in/fYcNwYU)
+- [NLP for the future](https://lnkd.in/fi78EBC)
