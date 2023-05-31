@@ -1,6 +1,7 @@
 ## ```Generic NLP Resource Links```
 - [NLP course by Yandex School of Data Analytics](https://lnkd.in/fePhndv)
 - [State of the Art NLP Innovations](https://lnkd.in/fbGkS_a)
+- [NLP Specialization by deeplearning.ai @Coursera](https://github.com/amanchadha/coursera-natural-language-processing-specialization)
 - [Deep Learning for NLP](https://lnkd.in/fWkGCbR)
 - [Fast AI NLP Course](https://lnkd.in/fPCcJAZ)
 - [Awesome NLP Journey](https://lnkd.in/fk7edUt)
