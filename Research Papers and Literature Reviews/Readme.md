@@ -54,3 +54,25 @@ Aligning pre-trained language models to perform better on any downstream NLP tas
 - The paper shows that fine-tuning a strong pretrained language model on 1,000s carefully curated examples can produce remarkable, competitive results on a wide range of prompts.
 
 
+#### Paper 3: [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+
+- **Authors**: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
+- **Published**: 10 Jan 2023 (Revised version)
+- **Conference/Journal**: 
+
+**Summary**: This paper introduces a method called chain-of-thought prompting, which significantly improves the reasoning abilities of large language models and throws light on how reasoning abilities emerge in LLMs. The authors demonstrate that chain-of-thought reasoning is an emergent property of model scale that allows sufficiently large language models to perform complex reasoning tasks. The experiments tested this method on various benchmarks, including arithmetic, symbolic, and commonsense reasoning tasks and results reflected that the language models performed well on these tasks when prompted with chain-of-thought demonstrations. The authors suggest that future work should focus on expanding the range of reasoning tasks that language models can perform successfully using methods like chain-of-thought prompting and trying to come up with solutions addressed by it's potential limitations.
+
+**Key Takeaways**:
+
+- The paper explores the ability of language models to perform few-shot prompting for reasoning tasks, given a prompt that consists of triples: <input, chain of thought, output>.
+- A *chain of thought* is a series of intermediate natural language reasoning steps that lead to the final output, and we refer to this prompting technique as chain-of-thought prompting.
+- This paper's objective is to enable large language models with the ability to generate a series of sequential intermediate steps(rationales) which might help them to obtain the final answer for a problem, preserving the coherent nature throughout.
+- CoT allows decomposition of complex problems which might require reasoning (arithmetic reasoning or commonsense reasoning for instance) into intermediate sub problems. It also allows the LLMs to act as self-critique and scope for debugging where the reason path might have gone wrong.
+- The method is achieved by the combination of few-shot prompting technique and rationale-augmented training of the model.
+- The results from the paper showed that chain-of-thought prompting is an emergent property of model scale that allows sufficiently large language models to perform reasoning tasks that otherwise have flat scaling curves.
+- The paper also underscores that standard prompting or let's say zero-shot prompting only provides a lower bound on the capabilities of the large language models.
+- Limitations :
+1. Although chain-of-thought emulates the thought processes of human reasoners, it is not clear whether the neural network is actually "reasoning."
+2. The cost of manually augmenting exemplars with chains of thought is minimal in the few-shot setting but could be prohibitive for finetuning.
+3. There is no guarantee of correct reasoning paths, which can lead to both correct and incorrect answers.
+4. Chain-of-thought reasoning only emerges at large model scales, which makes it costly to serve in real-world applications.
